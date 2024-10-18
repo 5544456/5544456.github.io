@@ -11,7 +11,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        {
         "class": "HotspotPanoramaOverlayArea",
         "mapColor": "image",
-        "click": "this.startPanoramaWithCamera(this.panorama_8F9CA8FA_9FB3_51E7_41D7_7AFB5CF7C4D6, this.camera_8CC8CE49_9EB2_F025_41D4_48B9E933539A); this.mainPlayList.set('selectedIndex', 1)"
+        "click": "this.startPanoramaWithCamera(this.panorama_8F9CA8FA_9FB3_51E7_41D7_7AFB5CF7C4D6, this.camera_8B1B364F_9EBD_303D_41C3_231F3B3BC870); this.mainPlayList.set('selectedIndex', 1)"
        },
        {
         "class": "HotspotPanoramaOverlayArea"
@@ -231,7 +231,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "class": "HotspotPanoramaOverlayArea",
            "mapColor": "image",
-           "click": "this.startPanoramaWithCamera(this.panorama_8EE2CB91_9FB3_7024_418B_6394DB74BD76, this.camera_8C35CE57_9EB2_F02D_41D8_DC39E03036C9); this.mainPlayList.set('selectedIndex', 0)"
+           "click": "this.startPanoramaWithCamera(this.panorama_8EE2CB91_9FB3_7024_418B_6394DB74BD76, this.camera_8B09865D_9EBD_30DD_41E1_2736E78EA006); this.mainPlayList.set('selectedIndex', 0)"
           },
           {
            "class": "HotspotPanoramaOverlayArea"
@@ -276,7 +276,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "class": "HotspotPanoramaOverlayArea",
            "mapColor": "image",
-           "click": "this.startPanoramaWithCamera(this.panorama_8F9DFAE5_9FB2_D1ED_41D3_4FBC1A6A2D77, this.camera_8CCC8E50_9EB2_F023_41AA_35CD25EEB0A2); this.mainPlayList.set('selectedIndex', 2)"
+           "click": "this.startPanoramaWithCamera(this.panorama_8F9DFAE5_9FB2_D1ED_41D3_4FBC1A6A2D77, this.camera_8B101657_9EBD_302D_41D6_25CD707128C8); this.mainPlayList.set('selectedIndex', 2)"
           },
           {
            "class": "HotspotPanoramaOverlayArea"
@@ -403,7 +403,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              {
               "class": "HotspotPanoramaOverlayArea",
               "mapColor": "image",
-              "click": "this.startPanoramaWithCamera(this.panorama_8F9CA8FA_9FB3_51E7_41D7_7AFB5CF7C4D6, this.camera_8CC51E42_9EB2_F027_41C0_122156E0F3B0); this.mainPlayList.set('selectedIndex', 1)"
+              "click": "this.startPanoramaWithCamera(this.panorama_8F9CA8FA_9FB3_51E7_41D7_7AFB5CF7C4D6, this.camera_8B26D648_9EBD_3023_418B_F30BCF4161CC); this.mainPlayList.set('selectedIndex', 1)"
              }
             ],
             "data": {
@@ -770,7 +770,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "class": "PanoramaCameraSequence",
    "restartMovementOnUserInteraction": false
   },
-  "id": "camera_8CC51E42_9EB2_F027_41C0_122156E0F3B0",
+  "id": "camera_8B26D648_9EBD_3023_418B_F30BCF4161CC",
   "automaticZoomSpeed": 10
  },
  {
@@ -804,7 +804,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "class": "PanoramaCameraSequence",
    "restartMovementOnUserInteraction": false
   },
-  "id": "camera_8CC8CE49_9EB2_F025_41D4_48B9E933539A",
+  "id": "camera_8B1B364F_9EBD_303D_41C3_231F3B3BC870",
   "automaticZoomSpeed": 10
  },
  {
@@ -838,7 +838,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "class": "PanoramaCameraSequence",
    "restartMovementOnUserInteraction": false
   },
-  "id": "camera_8CCC8E50_9EB2_F023_41AA_35CD25EEB0A2",
+  "id": "camera_8B101657_9EBD_302D_41D6_25CD707128C8",
   "automaticZoomSpeed": 10
  },
  {
@@ -872,7 +872,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "class": "PanoramaCameraSequence",
    "restartMovementOnUserInteraction": false
   },
-  "id": "camera_8C35CE57_9EB2_F02D_41D8_DC39E03036C9",
+  "id": "camera_8B09865D_9EBD_30DD_41E1_2736E78EA006",
   "automaticZoomSpeed": 10
  }
 ], "children": [
@@ -948,7 +948,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "height": "100%",
   "width": "100%",
   "toolTipBorderSize": 1,
-  "toolTipPaddingRight": 6,
+  "toolTipPaddingRight": 4,
   "toolTipBorderRadius": 3,
   "toolTipPaddingTop": 4,
   "toolTipTextShadowOpacity": 0,
@@ -979,14 +979,14 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "playbackBarHeadBorderRadius": 0,
   "playbackBarHeadOpacity": 1,
   "paddingRight": 0,
-  "toolTipPaddingLeft": 6,
+  "toolTipPaddingLeft": 4,
   "playbackBarBorderColor": "#FFFFFF",
   "playbackBarHeadShadowBlurRadius": 3,
   "progressBarBackgroundColorRatios": [
    0
   ],
   "playbackBarProgressBorderSize": 0,
-  "toolTipFontSize": "3vh",
+  "toolTipFontSize": "1.5vh",
   "progressBarBorderColor": "#000000",
   "toolTipShadowVerticalLength": 0
  }
